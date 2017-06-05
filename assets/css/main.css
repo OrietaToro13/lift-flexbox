@@ -1,0 +1,217 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+}
+img {  
+	width: 80px;
+	height: 57px;
+}
+
+.container {
+	width: 100%;
+	margin: auto;
+	display: flex; 
+	flex-direction: row; 
+	flex-wrap: wrap; 
+}
+header {
+	width: 100%;
+	padding: 20px;
+	display: flex; 
+	justify-content: space-between; 
+	align-items: center; 
+	flex-direction: row; 
+	flex-wrap: wrap; 
+}
+header .logo img{   
+	line-height: 50px;
+	position:relative;
+	top: 10px;
+	left: 80px;
+	width: 70px;
+	height: 48px;
+}
+header nav {  
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-right: 50px; 
+}
+header nav a{
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px;
+	flex-grow: 1; 
+}
+header nav a:hover{
+	background: #FF00BF;
+}
+#Sign a:hover{
+	border-radius: 10px;
+}
+section {
+	background: url('../img/img-lyft/encabezado1.jpg');
+	background-repeat: no-repeat;
+	background-size: 1366px;
+	width: 1366px;
+	height: 768px;
+}
+section aside {   /*caja blanca*/
+	background: white;
+	width: 340px;
+	height: 455px;
+	position: relative;
+	left: 948px;
+	bottom: 0px;
+	top: 15px;
+	padding: 40px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+#titulo {   
+	color:  #352384;
+	font-size: 28px;
+	position:relative;
+	bottom: 20px;
+}
+label {
+	color: #352384;
+	position:relative;
+	bottom: 40px;
+	font-weight: bold;
+}
+button {
+	background: #FF00BF;
+	text-decoration: none;
+	border-radius: 10px;
+	border: none;
+	color: white;
+	position: relative;
+	top: 20px;
+	left: -3px;
+	height: 43px;
+	width: 123px;
+}
+aside a {
+	font-size: 13px;
+	color: #352384;
+	position:relative;
+	top: 21px;
+	left:13px;
+}
+h2{
+	font-size: 10px;
+	position:relative;
+	top:45px;
+	color: #352384;
+}
+h3{
+	font-size: 10px;
+	position:relative;
+	top:23px;
+	color: #352384;
+}
+input {
+	border:none;
+	background-color: white;
+}
+#container0 { 
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+	background: -webkit-linear-gradient(#76278F, #2B1E66);
+	background: -o-linear-gradient(#76278F, #2B1E66);
+	background: linear-gradient(#76278F, #2B1E66);
+	border: none;
+	position:relative;
+	bottom: 25px;
+	color: white;
+}
+#varioscont {
+	display: flex;
+	flex-direction: column; 
+	align-items: stretch; 
+	position: relative;
+	left: 154px;
+	top: -45px;
+}
+img {
+	display:flex;
+	justify-content: flex-end;
+	width: 700px;
+	height: 500px;
+	position:relative;
+	left: 150px;
+	bottom: 27px;
+}
+h4 {
+	font-size: 25px;
+}
+h5{
+	font-size: 25px;
+	position:relative;
+	bottom:75px;
+}
+p {
+	line-height: 1%;  
+	position:relative;
+	bottom: 20px;
+}
+ span {
+	position:relative;
+	bottom:90px;
+}
+footer {
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+	background: #333447;
+	width: 1366px;
+	height: 630px;
+	margin: auto;
+	position:relative;
+	bottom: 25px;
+}
+#columnas {
+	display:flex;
+	flex-direction: column;
+	align-items: stretch;
+}
+footer img{
+	width: 200px;
+	height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
